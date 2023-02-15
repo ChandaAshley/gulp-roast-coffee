@@ -4,6 +4,14 @@ body {
     padding: 0;
     font-family: 'Lato', sans-serif;
     line-height: 2;
+    min-width: 600px;
+
+div {
+    width: 300px;
+    border: 15px;
+    padding: 50px;
+    margin: 20px;
+    }
  
   }
   h1, h2, h3 {
@@ -100,6 +108,33 @@ body {
   .button:hover {
     background-color: #f2f2f2;
     color: #59331d;
+
+    /* Styles for all screen sizes */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .box {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Styles for screens smaller than 768px (medium screens) */
+  @media screen and (max-width: 767px) {
+    .box {
+      flex-basis: 50%;
+    }
+  }
+  
+  /* Styles for screens larger than 768px (large screens) */
+  @media screen and (min-width: 768px) {
+    .box {
+      flex-basis: 33.33%;
+    }
+  }
+  
   }
   footer {
     color: #f2f2f2;

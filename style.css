@@ -1,5 +1,9 @@
+
+header {
+    background-color: #082B59 
+}
 body {
-    background-color: #082B59;
+    background-color: #f2f2f2;
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
@@ -66,7 +70,7 @@ div {
   }
   /* establishes a white background */
   .main-bkgd {
-    background: #ffffff url(https://assets.codepen.io/6306176/gulp-bean-bkgd.jpg) repeat-x bottom;
+    background: #ffffff url(https://github.com/ChandaAshley/gulp-bottom-beans.git) repeat-x bottom;
     padding-bottom: 300px;
   }
   /* sits inside of the white background, centered */
@@ -140,6 +144,7 @@ div {
     color: #f2f2f2;
     text-align: center;
     border-top: 10px solid #d98555;
+    
   }
   footer ul {
     list-style-type: none;
